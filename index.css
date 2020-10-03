@@ -29,6 +29,17 @@
         background: #350b1f;
         border-radius: 50%
       }
+
+      #circle-2 {
+        margin-top:350px;
+         float:right;
+         padding: 5px;
+         display:none;
+         width: 200px;
+         height: 200px;
+         background: purple;
+         border-radius: 50%
+       }
     
       #star-five {
     
@@ -117,4 +128,22 @@
         height: 140px;
         border-radius: 50%;
         box-shadow: 15px 15px 0 0 #923367;
+      }
+      #moon-2{
+        float:right;
+        padding:5px;
+        display:none;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 teal;
+      }
+      #moon-3{
+        float:right;
+        padding:5px;
+        display:none;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 darkblue;
       }
