@@ -1,0 +1,120 @@
+   body{
+       background-color: #d6ccd5;
+   }
+
+   #main{
+     position:relative;
+      padding:5px;
+   }
+
+   #secDiv{
+       position: absolute;
+       padding:100px;
+      margin-top:100px;
+   }
+
+   #thirdDiv{
+       position: absolute;
+       padding:100px;
+      margin-top:100px;
+   }
+
+    #circle {
+       margin-top:350px;
+        float:right;
+        padding: 5px;
+        display:none;
+        width: 100px;
+        height: 100px;
+        background: #350b1f;
+        border-radius: 50%
+      }
+    
+      #star-five {
+    
+       float:left;
+        padding: 5px;
+        display:none;
+        margin: 50px 0;
+        position: relative;
+        display: block;
+        color: purple;
+        width: 0px;
+        height: 0px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid #923367;
+        border-left: 100px solid transparent;
+        transform: rotate(35deg);
+      }
+      #star-five:before {
+      
+        padding: 5px;
+        border-bottom: 80px solid #923367;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -45px;
+        left: -65px;
+        display: block;
+        content: '';
+        transform: rotate(-35deg);
+      }
+      #star-five:after {
+          padding: 5px;
+        position: absolute;
+        display: block;
+        color: #350b1f;
+        top: 3px;
+        left: -105px;
+        width: 0px;
+        height: 0px;
+        border-right: 100px solid transparent;
+        border-bottom: 70px solid #350b1f;
+        border-left: 100px solid transparent;
+        transform: rotate(-70deg);
+        content: '';
+      }
+
+      
+    #heart {
+        top: 240px;
+        left: 150px;
+        margin:5px;
+        padding:5x;
+        display:none;
+        position: relative;
+        width: 100px;
+        height: 90px;
+      }
+      #heart:before,
+      #heart:after {
+        position: absolute;
+        content: "";
+        left: 50px;
+        top: 0;
+        width: 50px;
+        height: 80px;
+        background: #990726;
+        border-radius: 50px 50px 0 0;
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+      }
+      #heart:after {
+        left: 0;
+        transform: rotate(45deg);
+        transform-origin: 100% 100%;
+      }
+    
+      
+    #moon {
+        float:right;
+      
+        padding:5px;
+        display:none;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        box-shadow: 15px 15px 0 0 #923367;
+      }
